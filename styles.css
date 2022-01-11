@@ -1,0 +1,26 @@
+:root {
+  --color-primary: hsl(229, 23%, 23%);
+  --color-scondary: hsl(185, 75%, 39%);
+  --color-tertiary: hsl(227, 10%, 46%);
+  --color-accent: hsl(0, 0%, 59%);
+}
+
+/* Typography */
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+p {
+  color: var(--color-accent);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+hr {
+  opacity: 0.5;
+}
