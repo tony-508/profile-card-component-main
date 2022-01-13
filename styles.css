@@ -24,3 +24,12 @@ p {
 hr {
   opacity: 0.5;
 }
+
+/* Grid */
+
+.grid {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  border-radius: 20px;
+  justify-content: center;
+}
